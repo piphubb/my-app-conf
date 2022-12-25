@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: reactjs
-        image: piphubb/reacjs-argo
+        image: piphubb/reacjs-argo:00
         ports:
         - containerPort: 80
 ---
