@@ -5,7 +5,7 @@ pipeline {
         stage('Run Script') {
             steps {
                sh """
-                    sed -i 's+piphubb/reactjs-argo:.*+piphubb/reactjs-argo:${params.VERSION}+g' deploy/reatjs-argo.yaml
+                    sed -i 's+piphubb/reactjs-argo:.*+piphubb/reactjs-argo:${params.VERSION}+g' deploy/reactjs-argo.yaml
                     git config user.name 'piphubb'
                     git config user.email 'piphub.p16@gmail.com'
                     git add .
