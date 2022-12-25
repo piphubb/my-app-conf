@@ -10,7 +10,7 @@ pipeline {
                     git config user.email 'piphub.p16@gmail.com'
                     git add .
                     git commit -m 'change the file ${params.VERSION}'
-                    git push https://piphubb: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@github.com/piphubb/my-app-conf.git HEAD:main
+                    git push https://piphubb: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@github.com/piphubb/my-app-conf.git HEAD:main
                """
             }
         }
